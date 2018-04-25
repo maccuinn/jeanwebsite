@@ -1,16 +1,25 @@
 // font styles, sizes ect
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Montserrat:400,900');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Merriweather:400,900|Montserrat:500,500i');
 
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Merriweather', serif;
 
 $f-header: 'Merriweather', serif;
 $f-body: 'Montserrat', sans-serif;
+$f-logo: 'Dancing Script', serif;
 
 $fw-n: 400;
+$fw-m: 500;
 $fw-b: 900;
-//Merriweather only
 $fw-semi-b: 700;
+
+@mixin main-header($ff: $f-logo, $fw: $fw-semi-b, $fs: 3em, $color: $light-font, $ls: .2em) {
+    font-size: $fs;
+    font-family: $ff;
+    font-weight: $fw;
+    color: $color;
+    letter-spacing: $ls;
+}
 
 @mixin font-body($fs: $p-size-desktop, $color: $dark-font, $lh: 1.5em) {
     font-size: $fs;
