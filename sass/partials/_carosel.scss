@@ -1,0 +1,60 @@
+.quilts {
+    padding-top: $desktop-pad-sec;
+    padding-bottom: 6rem;
+
+    h1 {
+        text-align: center;
+    }
+
+    .iron-icon {
+        fill: $dark-background;
+        stroke: white;
+    }
+
+    .paper-carousel_wrapper {
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .paper-carousel_dot a::before {
+        background: $dark-background;
+    }
+
+    .buttons {
+        display: inline-block;
+        margin-left: calc(100% - 200px);
+        p {
+            margin-top: 20%;
+            background: $dark-background;
+            color: $light-font;
+            font-size: 1rem;
+            padding: .5rem;
+            border-radius: 2px;
+            box-shadow: 1px 1px 3px $dark-brown;
+            text-shadow: 1px 1px 3px $dark-brown;
+        }
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    .quilts {
+        background: $light-background;
+        color: $dark-font;
+        padding-bottom: 0;
+
+        @include line;
+
+        .quilt-container {
+            padding-bottom: 6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .quilts {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+

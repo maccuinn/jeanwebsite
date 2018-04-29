@@ -1,10 +1,12 @@
 body {
-    .logo {
-        @include main-header;
-    }
-
     header {
         background-color: $dark-background;
+    }
+
+    h1 {
+        margin-bottom: 2em;
+        @include font-header;
+        @include text-shadow;
     }
 }
     

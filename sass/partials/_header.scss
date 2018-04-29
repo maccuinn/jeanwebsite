@@ -1,0 +1,17 @@
+header {
+    .logo {
+        margin-left: 1em;
+        width: 80px;
+    }
+
+    .company-header {
+        display: flex;
+        align-items: center;
+        padding-top: 1em;
+    }
+
+    .company-name {
+        @include main-header;
+        margin: 0 0 0 .5em;
+    }
+}

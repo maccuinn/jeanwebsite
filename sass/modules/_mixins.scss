@@ -1,4 +1,19 @@
 
+@mixin line {
+    &::after {
+        content: '';
+        width: 80%;
+        height: 1px;
+        display: block;
+        background: $dark-background;
+        margin: 0 auto;
+    }
+}
+
+@mixin text-shadow {
+    text-shadow: 1px 1px $dark-font;
+}
+
 // Mixin for centering element
 // with margin-left: auto
 // and margin-right: auto;
@@ -194,10 +209,6 @@ $aspect-ratios: (
         clear: both;
     }
 
-}
-
-@mixin shadow($ho: 1px, $vo: 1px, $b: 4px, $c: $dark-gray) {
-    box-shadow: $ho $vo $b $dark-gray;
 }
 
 @mixin hide {

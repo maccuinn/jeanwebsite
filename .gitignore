@@ -86,6 +86,7 @@ node_modules/
 styles/
 styles/*.css
 styles/*.map
+bower_components
 
 
 # Misc files to ignore #
@@ -100,3 +101,4 @@ styles/*.map
 *.swp
 *.vi
 *~
+
