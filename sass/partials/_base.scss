@@ -4,9 +4,39 @@ body {
     }
 
     h1 {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
         @include font-header;
         @include text-shadow;
+    }
+
+    h2 {
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    h3 {
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    p {
+        @include font-body;
+    }
+
+    section {
+        margin-bottom: $desktop-pad-sec;
+    }
+
+    .buttons {
+        display: inline-block;
+        p {
+            background: $dark-background;
+            color: $light-font;
+            font-size: 1rem;
+            text-align: center;
+            padding: .5rem;
+            border-radius: 2px;
+            box-shadow: 1px 1px 3px $dark-brown;
+            text-shadow: 1px 1px 3px $dark-brown;
+        }
     }
 }
     

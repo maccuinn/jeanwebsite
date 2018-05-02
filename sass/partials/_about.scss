@@ -1,0 +1,22 @@
+.about {
+    background-color: $dark-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $desktop-pad-sec $desktop-side-pad;
+
+    .img-container {
+        width: 450px;
+        
+
+        .about-img {
+            @include img-cover(false);
+        }
+    }
+
+    p,
+    h1 {
+        color: $light-font;
+    }
+
+}
