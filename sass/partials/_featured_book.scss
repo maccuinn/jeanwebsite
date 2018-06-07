@@ -45,4 +45,26 @@
              margin-left: 1em;
          }
     }
+
+    .more-info-button,
+    .purchase-button {
+        transition: 500ms ease-in;
+        cursor: pointer;
+    }
+
+    .more-info-button:hover,
+    .purchase-button:hover {
+        transform: scale(1.2);
+    }
+
+    img {
+        transition: 500ms ease-in;
+        cursor: pointer;
+        border-radius: 4px;
+        box-shadow: 1px 1px 3px $dark-background;
+    }
+
+    img:hover {
+        transform: scale(1.3);
+    }
 }

@@ -1,6 +1,6 @@
 .book-page {
 
-    section {
+    section:not(:last-child) {
         @include line;
         margin-bottom: 0;
     }
