@@ -1,0 +1,15 @@
+.book-page {
+
+    section {
+        @include line;
+        margin-bottom: 0;
+    }
+
+    .books {
+        padding-top:  $desktop-pad-sec;
+    }
+
+    .buttons {
+        padding-bottom: $desktop-pad-sec;
+    }
+}
