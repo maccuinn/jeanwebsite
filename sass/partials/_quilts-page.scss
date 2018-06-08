@@ -1,0 +1,13 @@
+.quilts-page {
+    main{
+        padding-top: $desktop-pad-sec;
+        padding-bottom: $desktop-pad-sec;
+        
+        @include grid-two-col;
+        align-items: center;
+
+        .images {
+            justify-self: end;
+        }
+    }  
+}

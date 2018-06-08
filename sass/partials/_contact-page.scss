@@ -1,0 +1,19 @@
+.contact-page {
+    background-image: url(../imgs/pins3.png);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            @include font-header($fs: 3em);
+            text-shadow: 1px 1px $dark-background;
+            text-align: center;
+        }
+    }
+}

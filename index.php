@@ -44,8 +44,8 @@
             <h1>Grandma Extraordinaire</h1>
             <div class="img-container">
                 <picture class="about-image">
-                    <source srcset="imgs/jean_about-small.jpg" media="(max-width: 805px)">
-                    <img src="imgs/jean_about.jpeg" alt="Jean headshot">
+                    <source srcset="imgs/jean-about-small.png" media="(max-width: 805px)">
+                    <img src="imgs/jean-about-photo.png" alt="Jean headshot">
                 </picture>
             </div>
             <div class="about-info">
