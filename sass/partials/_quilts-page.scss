@@ -1,13 +1,36 @@
 .quilts-page {
     main{
-        padding-top: $desktop-pad-sec;
-        padding-bottom: $desktop-pad-sec;
-        
-        @include grid-two-col;
-        align-items: center;
+        padding: $desktop-pad-sec $tablet-side-pad;
+        max-width: 1200px;
+        margin: 0 auto;
 
-        .images {
-            justify-self: end;
+        h1 {
+            text-align: center;
+            padding-bottom: 1em;
         }
-    }  
+
+        @media screen and (max-width: $tabletLandscape) {
+            h1,
+            h2,
+            h3 {
+                text-align: center;
+            }  
+        }
+        
+        .cards {
+            @include grid-two-col;
+            align-items: center;
+
+            @media screen and (max-width: $tabletLandscape) {
+                @include grid-one-col;
+                justify-items: center;
+            }
+        }
+
+        #first {
+            align-self: flex-start;
+        }
+    }
+    
+    
 }
