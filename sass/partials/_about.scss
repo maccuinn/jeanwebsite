@@ -10,8 +10,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: $tablet-pad-sec;
         
-
         .about-img {
             @include img-cover(false);
         }
@@ -26,4 +26,8 @@
         text-align: center;
     }
 
+    p {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 }

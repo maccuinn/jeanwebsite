@@ -4,6 +4,10 @@
         max-width: 1200px;
         margin: 0 auto;
 
+        @media screen and (max-width: $phoneLandscape) {
+            padding: $tablet-side-pad $phone-side-pad;
+        }
+
         h1 {
             text-align: center;
             padding-bottom: 1em;
