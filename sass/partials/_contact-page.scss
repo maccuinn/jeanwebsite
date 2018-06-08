@@ -1,9 +1,13 @@
 .contact-page {
     background-image: url(../imgs/pins3.png);
-    height: 50vh;
+    height: 65vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    @media screen and (max-width: $tabletPortrait) {
+        background-image: url(../imgs/pins-tablet.png);
+    }
 
     section {
         display: flex;
@@ -14,6 +18,20 @@
             @include font-header($fs: 3em);
             text-shadow: 1px 1px $dark-background;
             text-align: center;
+            filter: contrast(160%) #{"saturate(180%)"};
+            padding: 0 $tablet-pad-sec;
+
+            @media screen and (max-width: $tabletPortrait) {
+                font-size: 2em;
+            }
+
+            @media screen and (max-width: $phoneLandscape) {
+                font-size: 1.3em;
+            }
+
+            @media screen and (max-width: $phonePortrait) {
+                font-size: 1em;
+            }
         }
     }
 }
