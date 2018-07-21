@@ -39,7 +39,7 @@
                     </div>
                 </div>  
                 <div class="buttons">
-                    <p class="purchase-button">Purchase Now</p>
+                    <a href="purchase.php" class="purchase-button">Purchase Now</a>
                 </div>
             </div>
         </section>

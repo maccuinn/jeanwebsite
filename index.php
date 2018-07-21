@@ -35,7 +35,7 @@
                     </div>
                 </paper-carousel>
                 <div class="buttons">
-                    <p class="more-info-button">More Quilts</p>
+                    <a class="more-info-button" href="quilts.php">More Quilts</a>
                 </div>
             </div>
         </section>
