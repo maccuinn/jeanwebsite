@@ -1,0 +1,17 @@
+runtime: php55
+api_version: 1
+skip_files:
+  sass/
+
+handlers:
+# Serve images as static resources.
+- url: /
+  script: index.php
+- url: /(.+\.(gif|png|jpg|jpeg|css|js|html))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg|jpeg|css|js|html)$
+  # application_readable: true
+
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
