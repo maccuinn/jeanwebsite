@@ -14,7 +14,7 @@
         <section class="quilts">
             <div class="quilt-container">
                 <h1>Featured Quilts</h1>
-                <dsc-polymer-carousel interval="5" style="--carousel-height:413px" height="413px" parallax>
+                <dsc-polymer-carousel interval="5" style="--carousel-height:413px" height="413px">
                     <section background="imgs/marvel-quilt.png"><a href="quilts.php#marvel"></a></section>
                     <section background="imgs/surprise-quilt.png"><a href="quilts.php#surprise"></a></section>
                     <section background="imgs/william_quilt.jpg"><a href="quilts.php#william"></a></section>
