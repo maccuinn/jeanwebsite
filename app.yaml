@@ -2,16 +2,32 @@ runtime: php55
 api_version: 1
 skip_files:
   sass/
+  mockups/
+  README.md
 
 handlers:
+# TODO: be more specific about files that we upload?
 # Serve images as static resources.
+#- url: /(imgs|styles|js)/(.+\.(gif|png|jpg|jpeg|css|js|html))$
+#  static_files: \1/\2
+#  upload: (imgs|styles|js)/.+\.(gif|png|jpg|jpeg|css|js|html)$
+
+# easy way is to just upload all the static directories
+- url: /js
+  static_dir: js
+- url: /styles
+  static_dir: styles
+- url: /imgs
+  static_dir: imgs
+- url: /node_modules/jquery/dist
+  static_dir: node_modules/jquery/dist
+- url: /bower_components
+  static_dir: bower_components
+
+  # application_readable: true
 - url: /
   script: index.php
-- url: /(.+\.(gif|png|jpg|jpeg|css|js|html))$
-  static_files: \1
-  upload: .+\.(gif|png|jpg|jpeg|css|js|html)$
-  # application_readable: true
 
 # Serve php scripts.
-- url: /(.+\.php)$
+- url: /(.*\.php)$
   script: \1
