@@ -15,7 +15,7 @@
             <h1>Quilts</h1>
             <div class="cards">
             <div class="images" id="first">
-                <img src="imgs/marvel-quilt.png" alt="">
+                <img src="imgs/marvel-quilt.png" alt="" id="marvel">
             </div>
             <div class="write-up">
                 <h2>Millicent Marvel &amp Bentley Bunny</h2>
@@ -23,7 +23,7 @@
                 <p>My successful attempt at turning my Surprise quilt into a picture book inspired me to try again. When my fourth granddaughter was born I was so taken with her name, Millicent Marvel, that I decided to write a story and create another Storybook Quilt. Millicent lives on the Sunshine Coast of British Columbia in a hundred year old farmhouse. There are chickens scratching in the yard, a bear that slept there for a summer and bunnies in a pen. All wonderful fodder for a story. For this quilt, as well as raw edged appliqué and thread painting, I tried some new techniques. Each page was made as a discreet block. This made it much easier to handle on my sewing machine. An extra backing of a looped fabric added to the back allowed me to Velcro the pieces together in four different formats, 6 x 5 blocks, 5 x 6 blocks, 10 x 3 blocks and last but not least (when I displayed them in our local library), 30 x 1.  I also purchased a ScanNcut to cut out the words from Siser’s easy-weed strip-flock vinyl. First I formatted them on my computer and then sent them over to the ScanNcut. I learned the hard way that one must always reverse them before you cut. After that they were pressed on to the quilt blocks by a local t-shirt shop, just in time for the Boundary Bay Quilter Guild semi-annual quilt show.</p>
             </div>
             <div class="images">
-                <img src="imgs/surprise-quilt.png" alt="">
+                <img src="imgs/surprise-quilt.png" alt="" id="surprise">
             </div>
             <div class="write-up">
                 <h2>Surprise</h2>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="images">
-                <img src="imgs/william_quilt.jpg" alt="">
+                <img src="imgs/william_quilt.jpg" alt="" id="william">
             </div>
             <div class="write-up">
                 <h2>William's Quilt</h2>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="images">
-                <img src="imgs/skimmerhorns_quilt.jpg" alt="">
+                <img src="imgs/skimmerhorns_quilt.jpg" alt="" id="skimmerhorns">
             </div>
             <div class="write-up">
                 <h2>The Skimmerhorns</h2>
@@ -48,7 +48,7 @@
             </div>
 
             <div class="images">
-                <img src="imgs/owl_moon_quilt.jpg" alt="">
+                <img src="imgs/owl_moon_quilt.jpg" alt="" id="owl_moon">
             </div>
             <div class="write-up">
                 <h2>Mt. Baker Night Owl</h2>
@@ -56,7 +56,7 @@
             </div>
 
             <div class="images">
-                <img src="imgs/car-quilt-large.png" alt="">
+                <img src="imgs/car-quilt-large.png" alt="" id="car">
             </div>
             <div class="write-up">
                 <h2>Retro Roadtrip</h2>

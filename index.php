@@ -14,26 +14,14 @@
         <section class="quilts">
             <div class="quilt-container">
                 <h1>Featured Quilts</h1>
-                <paper-carousel items="2" responsive="1050:1" controls="true" dots="true" dottext="false">   
-                    <div>
-                        <img src="imgs/marvel-quilt.png" alt="">
-                    </div>
-                    <div>
-                        <img src="imgs/surprise-quilt.png" alt="">
-                    </div>
-                    <div>
-                        <img src="imgs/william_quilt.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="imgs/skimmerhorns_quilt.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="imgs/owl_moon_quilt.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="imgs/car-quilt-large.png" alt="">
-                    </div>
-                </paper-carousel>
+                <dsc-polymer-carousel interval="5" style="--carousel-height:413px" height="413px" parallax>
+                    <section background="imgs/marvel-quilt.png"><a href="quilts.php#marvel"></a></section>
+                    <section background="imgs/surprise-quilt.png"><a href="quilts.php#surprise"></a></section>
+                    <section background="imgs/william_quilt.jpg"><a href="quilts.php#william"></a></section>
+                    <section background="imgs/skimmerhorns_quilt.jpg"><a href="quilts.php#skimmerhorns"></a></section>
+                    <section background="imgs/owl_moon_quilt.jpg"><a href="quilts.php#owl_moon"></a></section>
+                    <section background="imgs/car-quilt-large.png"><a href="quilts.php#car"></a></section>
+                </dsc-polymer-carousel>
                 <div class="buttons">
                     <a class="more-info-button" href="quilts.php">More Quilts</a>
                 </div>
