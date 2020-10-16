@@ -10,5 +10,5 @@ if(!isset($pgName)){
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="../styles/styles.css" type="text/css" rel="stylesheet">
     <link rel="import" href="bower_components/dsc-polymer-carousel/dsc-polymer-carousel.html">
-    <title>COMP 1950 - <?php echo $pgName; ?></title>
+    <title>Ingenius Creations - <?php echo $pgName; ?></title>
 </head>

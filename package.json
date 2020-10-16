@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass -o styles ./sass/styles.scss --source-map=true",
     "scss:watch": "node-sass -o styles ./sass/styles.scss --source-map=true --watch --recursive",
-    "deploy": "gcloud app deploy --quiet"
+    "deploy": "gcloud app deploy --quiet --project ingeniuscreations-ca"
   },
   "repository": {
     "type": "git",

@@ -17,6 +17,28 @@
         margin-top: 2em;
     }
 
+    .book-desc-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+        align-items: flex-start;
+        .book-desc {
+            max-width: 33%;
+            @media screen and (max-width: $tabletPortrait) {
+                max-width: 90%;
+            }
+            justify-content: space-around;
+            justify-content: space-evenly;
+        }
+        img {
+            max-width: 30vw;
+            transform: scale(0.769);
+            &:hover {
+                transform: scale(1);
+            }
+        }
+    }
     .book-desc {
         display: flex;
         flex-direction: column;
@@ -24,6 +46,11 @@
         text-align: center;
         max-width: 800px;
         margin: 0 auto;
+        sub {
+            font-size: 60%;
+            font-family: sans-serif;
+            vertical-align: baseline;
+        }
     }
 
     .book-images {

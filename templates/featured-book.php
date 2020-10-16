@@ -1,24 +1,19 @@
 
-<div class="book-desc">
-    <h2>Millicent Marvel &amp; Bentley Bunny</h2>
-    <h3>A Storybook Quilt</h3>
-    <p class="book-passage">Millicent Marvel left Bentley Bunny outside in the cold last night.<br>Her Gramma will make Bentley a quilt to warm up in but Millicent must choose a pattern.<br>Decisions, decisions.</p>
-    <p class="book-explanation">Discover a new world where animals from the quilt come alive...</p>
-    <p class="book-snippets">Let's stitch a quilt to wrap him up in.<br>Come, pick a pattern from my old cookie tin.</p>
-    <p class="book-snippets">This skunk cabbage pattern might work, don't you think?<br>Uh uh, then Bunny really would stink.</p>
-    <p class="book-explanation">These are just some of the lines to be found in this delightful child’s picture book. The vibrant colors and textures jump from the pages and stimulate the senses of children and quilters alike. The book evolved from a quilt and poem I created for one of my grand-daughters.</p>
-</div>
+<div class="book-desc-container">
+    <img src="imgs/tt-book-one.png">
+    <div class="book-desc">
+        <h2>Tangled Tongue</h2>
+        <h3>A F.U.S.E Adventure <sub>Book One</sub></h3>
+        <p class="book-explanation">
+            A wicked stutter is peanuts compared to rescuing your dad.
+        </p>
+        <p class="book-explanation">
+        Duff Fraser can’t leave his stutter behind even on the soccer field. Ambushed by a bully from the rival team, he limps home. Duff and his dad team up to create the F.U.S.E., a device that alters brain pathways and lets Duff speak normally. Then hoodlums snatch his dad off the street. Will Duff, armed with newfound confidence, robots, drones, and best of all, good friends, be able to find him?
+        </p>
 
-<div class="container">
-    <div class="book-images">
-        <img class="book-cover-img" src="imgs/marvel-cover.png" alt="Millicent Marvel Standing on Grass beside her Bunny.">
-        <div class="thumbnails">
-            <img src="imgs/marvel-word-thumbnail.png" alt="Page of Millicent Book">
-            <img src="imgs/marvel-skunk-thumbnail.png" alt="Skunk Spraying Bentley Bunny">
-            <img src="imgs/marvel-crows-thumbnail.png" alt="Three Crows Sitting on a Wire">
-        </div>
-    </div>  
-    <div class="buttons">
-        <a href="purchase.php" class="purchase-button">Purchase Now</a>
+        <p class="book-explanation">
+        Tangled Tongue is a coming of age quest novel comparable to The Truth as Told by Mason Buttle and Fish in a Tree. This middle-grade adventure features self-reliance, friendship, and technology. A perfect read for back to school — no matter what that looks like.
+        </p>
+
     </div>
 </div>

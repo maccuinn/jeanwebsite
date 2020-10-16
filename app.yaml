@@ -4,6 +4,7 @@ skip_files:
   sass/
   mockups/
   README.md
+  ^node_modules/(?!jquery/dist/).*
 
 handlers:
 # TODO: be more specific about files that we upload?
