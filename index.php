@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php 
+    <?php
         include 'templates/head.php';
     ?>
 <body>
@@ -11,6 +11,12 @@
     </header>
 
     <main>
+        <section class="books">
+            <h1>Featured Book</h1>
+            <?php
+                include 'templates/featured-book.php';
+            ?>
+        </section>
         <section class="quilts">
             <div class="quilt-container">
                 <h1>Featured Quilts</h1>
@@ -41,24 +47,19 @@
                 <p>Fast forward twenty years...retired and ready for a new challenge Jean decided to combine her passions: quilting and writing. Inspired by a trip to the beach with her grandson, a silly time of rhyming and throwing stones, Surprise: A Storybook Quilt was born.</p>
                 <p>This site contains just some of the projects this busy grandma has been working on, from books to quilts.</p>
             </div>
-            
+
         </section>
 
-        <section class="books">
-            <h1>Featured Book</h1>
-            <?php
-                include 'templates/featured-book.php';
-            ?>
-        </section>
+
     </main>
-    
+
     <footer>
         <?php
             include 'templates/footer.php';
         ?>
     </footer>
 
-    <?php 
+    <?php
         include 'templates/scripts.php';
     ?>
 </body>

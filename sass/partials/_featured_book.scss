@@ -22,9 +22,9 @@
         flex-direction: row;
         flex-wrap: wrap;
         flex-wrap: wrap-reverse;
-        align-items: flex-start;
+        justify-content: center;
         .book-desc {
-            max-width: 33%;
+            max-width: 30em;
             @media screen and (max-width: $tabletPortrait) {
                 max-width: 90%;
             }
@@ -45,7 +45,7 @@
         align-items: center;
         text-align: center;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 0 1em;
         sub {
             font-size: 60%;
             font-family: sans-serif;
@@ -110,9 +110,27 @@
         cursor: pointer;
         border-radius: 4px;
         box-shadow: 1px 1px 3px $dark-background;
+        &:hover {
+            transform: scale(1.3);
+        }
     }
+    .buy-button {
+        border: 1px solid black;
+        display: inline-block;
+        padding: 0.35em 1.2em;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        box-sizing: border-box;
+        text-decoration: none;
+        background-color: $dark-background;
+        color: white;
+        margin-left: 1em;
+        text-align: center;
+        transition: all 0.2s;
 
-    img:hover {
-        transform: scale(1.3);
+        &:hover{
+            color: white;
+            background-color: black;
+        }
     }
 }
