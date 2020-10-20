@@ -20,6 +20,8 @@ handlers:
   static_dir: styles
 - url: /imgs
   static_dir: imgs
+- url: /media
+  static_dir: media
 - url: /node_modules/jquery/dist
   static_dir: node_modules/jquery/dist
 - url: /bower_components
