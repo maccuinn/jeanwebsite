@@ -1,7 +1,20 @@
+dsc-polymer-carousel {
+    max-width: 600px;
+    margin: auto;
+    a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
 .quilts {
     padding-top: $desktop-pad-sec;
     padding-left: $desktop-side-pad;
     padding-right: $desktop-side-pad;
+    margin-bottom: 0;
 
     h1 {
         text-align: center;
@@ -24,6 +37,8 @@
     .buttons {
         display: flex;
         justify-content: flex-end;
+        max-width: 600px;
+        margin: auto;
     }
 }
 

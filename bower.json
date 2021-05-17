@@ -1,0 +1,21 @@
+{
+  "name": "jeanwebsite",
+  "homepage": "ingeniuscreations.ca",
+  "authors": [
+    "\"\""
+  ],
+  "description": "",
+  "main": "index.php",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^0.7.24",
+    "dsc-polymer-carousel": "^0.0.10"
+  }
+}
