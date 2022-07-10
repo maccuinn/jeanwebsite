@@ -7,11 +7,13 @@
         <p class="book-explanation">
             Millicent Marvel sets out with Bentley Bunny on a small adventure while Mama snores on the picnic blanket. Millicent explores the forest and encounters everything from slugs to owls. When she wanders down to the Salish Sea, an orca greets her. The sun is setting and Mama is frantic. Where is Millicent Marvel?
         </p>
-        You can contact the author for a book or find it on Amazon in ebook or paperback book form:
-        <a class="buy-button" style="align-self: flex-end"
-                href="<?= $buy ?>">
-            Buy now
-        </a>
+        <p>
+            You can contact the author for a book or find it on Amazon in ebook or paperback book form:
+            <a class="buy-button" style="align-self: flex-end"
+                    href="<?= $buy ?>">
+                Buy now
+            </a>
+        </p>
 
         <dsc-polymer-carousel interval="5" style="max-width:90vw;width:480px;--carousel-height: 494px;--carousel-width:480px" width="210px" height="480px">on>
             <section background="imgs/mmss/MMSS-mosquito.png"><a href="<?= $buy ?>"></a></section>
