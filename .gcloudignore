@@ -1,0 +1,17 @@
+sass/
+mockups/
+README.md
+
+# stupid dance to allow one file deep in node_modules
+node_modules/*
+!node_modules/jquery
+node_modules/jquery/*
+!node_modules/jquery/dist
+node_modules/jquery/dist/*
+!node_modules/jquery/dist/jquery.min.js
+
+.git/
+.gitignore
+.gcloudignore
+package.json
+package-lock.json

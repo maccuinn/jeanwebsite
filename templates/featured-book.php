@@ -13,11 +13,10 @@
             Buy now
         </a>
 
-        <dsc-polymer-carousel interval="5" style="--carousel-width:210px" width="210px">
-            <section background="imgs/mmss/MMSS cover.png"><a href="<?= $buy ?>"></a></section>
-            <section background="imgs/mmss/MMSS mosquito.png"><a href="<?= $buy ?>"></a></section>
-            <section background="imgs/mmss/MMSS orca.png"><a href="<?= $buy ?>"></a></section>
-            <section background="imgs/mmss/MMSS slug.png"><a href="<?= $buy ?>"></a></section>
+        <dsc-polymer-carousel interval="5" style="max-width:90vw;width:480px;--carousel-height: 494px;--carousel-width:480px" width="210px" height="480px">on>
+            <section background="imgs/mmss/MMSS-mosquito.png"><a href="<?= $buy ?>"></a></section>
+            <section background="imgs/mmss/MMSS-orca.png"><a href="<?= $buy ?>"></a></section>
+            <section background="imgs/mmss/MMSS-slug.png"><a href="<?= $buy ?>"></a></section>
         </dsc-polymer-carousel>
 
     </div>

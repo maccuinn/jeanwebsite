@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass -o styles ./sass/styles.scss --source-map=true",
     "scss:watch": "node-sass -o styles ./sass/styles.scss --source-map=true --watch --recursive",
+    "upload-list": "gcloud meta list-files-for-upload",
     "deploy": "gcloud app deploy --quiet --project ingeniuscreations-ca"
   },
   "repository": {

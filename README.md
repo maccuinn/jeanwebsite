@@ -23,7 +23,9 @@ This happens automatically the first time during `npm install`
 
 ## Deploy the app
 
-`npm run deploy`
+* `npm run upload-list`
+  * Check what files will be uploaded before uploading
+* `npm run deploy`
 
 ## Profit
 
