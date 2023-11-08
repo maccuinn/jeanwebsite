@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php 
+    <?php
         include 'templates/head.php';
     ?>
 <body>
@@ -40,6 +40,35 @@
                 </div>
                 <div class="buttons">
                     <a href="purchase.php" class="purchase-button">Purchase Now</a>
+                    <a class="buy-button" style="align-self: flex-end" href="https://www.westernskybooks.com/">Buy Locally at Western Sky Books in Port Coquitlam</a>
+                </div>
+            </div>
+        </section>
+        <section class="books">
+            <?php $buy="https://www.amazon.ca/Millicent-Marvel-Bentley-Bunny-Salish/dp/0995200750/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1656882831&sr=8-2" ?>
+            <div class="book-desc">
+                <h2>Millicent Marvel &amp; Bentley Bunny By the Salish Sea</h2>
+                <h3>A Storybook Quilt</h3>
+                <p class="book-explanation">Millicent Marvel sets out with Bentley Bunny on a small adventure while Mama snores on the picnic blanket. Millicent explores the forest and encounters everything from slugs to owls. When she wanders down to the Salish Sea, an orca greets her. The sun is setting and Mama is frantic. Where is Millicent Marvel?
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="book-images">
+                    <iframe class="book-image" type="text/html" width="414" height="480" frameborder="0" allowfullscreen style="max-width:100%"
+        src="https://read.amazon.ca/kp/card?asin=0995200750&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_RD1IFbHYJWH1R" ></iframe>
+                    <dsc-polymer-carousel interval="5" style="max-width:90vw;width:480px;--carousel-height: 494px;--carousel-width:480px" width="210px" height="480px">
+                        <section background="imgs/mmss/MMSS-mosquito.png"><a href="<?= $buy ?>"></a></section>
+                        <section background="imgs/mmss/MMSS-orca.png"><a href="<?= $buy ?>"></a></section>
+                        <section background="imgs/mmss/MMSS-slug.png"><a href="<?= $buy ?>"></a></section>
+                    </dsc-polymer-carousel>
+                </div>
+                <div class="buttons">
+                    <a class="buy-button" style="align-self: flex-end"
+                        href="<?= $buy ?>">
+                        Buy now
+                    </a>
+                    <a class="buy-button" style="align-self: flex-end" href="https://www.westernskybooks.com/">Buy Locally at Western Sky Books in Port Coquitlam</a>
                 </div>
             </div>
         </section>
@@ -65,6 +94,27 @@
                 </div>
                 <div class="buttons">
                     <a href="purchase.php" class="purchase-button">Purchase Now</a>
+                </div>
+            </div>
+        </section>
+        <section class="books">
+            <div class="book-desc">
+                <h2>Tangled Tongue</h2>
+                <h3>A F.U.S.E Adventure <sub>Book One</sub></h3>
+                <p class="book-explanation">Tangled Tongue is a coming of age quest novel comparable to The Truth as Told by Mason Buttle and Fish in a Tree. This middle-grade adventure features self-reliance, friendship, and technology. A perfect read for back to school — no matter what that looks like.</p>
+                <p class="book-explanation">Duff Fraser can’t leave his stutter behind even on the soccer field. Ambushed by a bully from the rival team, he limps home. Duff and his dad team up to create the F.U.S.E., a device that alters brain pathways and lets Duff speak normally. Then hoodlums snatch his dad off the street. Will Duff, armed with newfound confidence, robots, drones, and best of all, good friends, be able to find him?</p>
+            </div>
+            <div class="container">
+                <div class="book-images">
+                    <iframe class="book-image" type="text/html" width="414" height="724" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.ca/kp/card?asin=B08L5SR3T4&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_RD1IFbHYJWH1R" ></iframe>
+                </div>
+                <div class="buttons">
+                    <?php $buy= "https://www.amazon.com/Tangled-Tongue-F-U-S-Adventure-ebook/dp/B08L5SR3T4/ref=sr_1_1?dchild=1&qid=1602869977&refinements=p_27%3AJean+Husband&s=books&sr=1-1" ?>
+                    <a class="buy-button" style="align-self: flex-end"
+                            href="<?= $buy ?>">
+                        Buy now
+                    </a>
+                    <a class="buy-button" style="align-self: flex-end" href="https://www.westernskybooks.com/">Buy Locally at Western Sky Books in Port Coquitlam</a>
                 </div>
             </div>
         </section>

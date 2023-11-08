@@ -14,4 +14,15 @@ header {
         @include main-header;
         margin: 0 0 0 .5em;
     }
+
+    .banner {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding: 0 5ex;
+        img {
+            max-height: 85px;
+        }
+    }
 }

@@ -1,5 +1,4 @@
-runtime: php55
-api_version: 1
+runtime: php82
 
 handlers:
 # TODO: be more specific about files that we upload?
